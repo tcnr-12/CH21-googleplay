@@ -3,5 +3,5 @@
     <!-- TODO(user): replace with your real server client ID -->
     <!--Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained from https://console.cloud.google.com/apis/credentials?folder=&organizationId=&project=my-project-sign&#45;&#45;1627459179677-->
     <!--    https://developers.google.com/identity/sign-in/android/start-integrating-->
-    <string name="server_client_id">90393417346-u7uff2hdclm0lgjr9cv3oekq7aqqifka.apps.googleusercontent.com</string>
+    <string name="server_client_id"></string>
 </resources>
