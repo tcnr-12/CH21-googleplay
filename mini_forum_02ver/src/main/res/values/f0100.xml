@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--f0100-->
+    <string name="f0100_t001">會員</string>
+    <string name="f0100_t002">範例\n範例\n範例\n範例\n範例</string>
+    <string name="f0100_t003">發文</string>
+    <string name="f0100_t004">每日一問：</string>
+
+    <string name="f0100_e001">請輸入留言</string>
+    <string name="f0100_b001">留言</string>
+<!--Menu-->
+    <string name="f0100_menu">選單</string>
+    <string name="f0100_login">Google快速登入</string>
+    <string name="f0100_answer">昨日解答</string>
+    <string name="f0100_delete">刪除留言</string>
+    <string name="f0100_no_delete">取消刪除</string>
+    <string name="action_settings">結束應用程式</string>
+    <string name="action_back">返回</string>
+
+<!--AlertDialog-->
+    <string name="f0100_menu_about">關於這個程式</string>
+    <string name="f0100_menu_message">我們在2021年9月，設計這個APP，提供大家休閒時，聊天的好地方!</string>
+    <string name="f0100_menu_ok">確定</string>
+    <string name="f0100_dialog_title">訊息</string>
+    <string name="f0100_dialog_message">請登入，即可使用此功能。</string>
+    <string name="f0100_dialog_ok">確定</string>
+</resources>

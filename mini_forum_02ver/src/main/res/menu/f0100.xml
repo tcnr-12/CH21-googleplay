@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/f0100_group01">
+        <item
+            android:id="@+id/f0100_login"
+            android:icon="@drawable/googleg_color"
+            android:orderInCategory="100"
+            android:title="@string/f0100_login" />
+        <item
+            android:id="@+id/f0100_answer"
+            android:icon="@android:drawable/ic_menu_search"
+            android:orderInCategory="110"
+            android:title="@string/f0100_answer" />
+        <item
+            android:id="@+id/f0100_menu_about"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:orderInCategory="900"
+            android:title="@string/f0100_menu_about" />
+        <item
+            android:id="@+id/f0100_delete"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:orderInCategory="120"
+            android:title="@string/f0100_delete" />
+        <item
+            android:id="@+id/f0100_action_settings"
+            android:icon="@android:drawable/ic_delete"
+            android:orderInCategory="999"
+            android:title="@string/action_settings" />
+    </group>
+    <group android:id="@+id/f0100_group02">
+        <item
+            android:id="@+id/f0100_no_delete"
+            android:icon="@android:drawable/ic_menu_rotate"
+            android:orderInCategory="121"
+            android:title="@string/f0100_no_delete" />
+    </group>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_disconnect"
+        android:orderInCategory="100"
+        android:title="@string/q0200_disconnect" />
+    <item
+        android:id="@+id/action_back"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="999"
+        android:title="@string/action_back"
+        app:showAsAction="always" />
+</menu>

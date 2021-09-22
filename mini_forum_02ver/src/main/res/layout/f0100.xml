@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    android:padding="@dimen/p005"
+    tools:context=".F0100">
+
+    <LinearLayout
+        android:id="@+id/f0100_lay003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/f0100_t004"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_view02"
+            android:padding="@dimen/p005"
+            android:text="@string/f0100_t004"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/f0100_t005"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="@color/Gray" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/f0100_img001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/f0100_tab003"
+        android:layout_below="@+id/f0100_lay003"
+        android:layout_marginTop="@dimen/p005"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+    <TableRow
+        android:id="@+id/f0100_tab001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/f0100_lay002"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/p005"
+            android:orientation="vertical">
+
+            <tw.tcnr12.forum.CircleImgView
+                android:id="@+id/f0100_img002"
+                android:layout_width="@dimen/p050"
+                android:layout_height="@dimen/p050"
+                app:srcCompat="@drawable/icon_people" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/f0100_t001"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_view01"
+            android:gravity="center_vertical"
+            android:padding="@dimen/p005"
+            android:text="@string/f0100_t002"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp18" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/f0100_tab002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/p010"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/f0100_t002"
+            android:layout_width="@dimen/p120"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:gravity="start"
+            android:text="@string/f0100_t001"
+            android:textColor="@color/Gray"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/f0100_img003"
+            android:layout_width="@dimen/p020"
+            android:layout_height="@dimen/p020"
+            android:background="@drawable/icon_delete"
+            android:scaleType="fitCenter"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/f0100_t003"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/f0100_t003"
+            android:textColor="@color/Gray"
+            android:textSize="14sp" />
+
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/f0100_tab003"
+        android:layout_below="@+id/f0100_lay003"
+        android:layout_marginTop="@dimen/p005"
+        android:layout_marginBottom="0dp"
+        android:padding="@dimen/p005"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:id="@+id/f0100_lay001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TableRow
+        android:id="@+id/f0100_tab003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/p005"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/f0100_e001"
+            android:layout_width="@dimen/p300"
+            android:layout_height="match_parent"
+            android:background="@color/Silver"
+            android:hint="@string/f0100_e001" />
+
+        <Button
+            android:id="@+id/f0100_b001"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/btn_default"
+            android:text="@string/f0100_b001" />
+    </TableRow>
+
+    <ImageButton
+        android:id="@+id/f0100_img004"
+        android:layout_width="@dimen/p050"
+        android:layout_height="@dimen/p050"
+        android:layout_above="@+id/f0100_tab003"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/p010"
+        android:layout_marginBottom="@dimen/p030"
+        android:background="@drawable/icon_arrow"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>

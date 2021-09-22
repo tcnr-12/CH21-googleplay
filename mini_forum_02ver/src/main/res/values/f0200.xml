@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="q0200_desc_google_icon">Google Logo</string>
+    <string name="q0200_title_text">Google 帳號登入\n需要權限許可</string>
+    <string name="q0200_signed_out">登出</string>
+    <string name="q0200_status_signed_out">未登入</string>
+    <string name="q0200_OptionalAction">加註</string>
+    <string name="q0200_disconnect">中斷Google連結</string>
+    <string name="q0200_signed_in_fmt">歡迎 %s</string>
+</resources>
